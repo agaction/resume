@@ -1,8 +1,18 @@
+# Excess PDFs
+
+old_versions_pdfs/
+Resume_Pointers.pdf
+
+# Mac-files
+
 .DS_Store
+
+# Secondary output files
+
 *.aux
+*.log
 *.glo
 *.idx
-*.log
 *.toc
 *.ist
 *.acn
