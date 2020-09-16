@@ -19,7 +19,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{amsmath}
-\usepackage[super]{nth}
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
