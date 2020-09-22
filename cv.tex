@@ -8,12 +8,6 @@
 %
 % Original author:
 % Rishi Shah 
-%
-% Important note:
-% This template requires the resume.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -24,10 +18,11 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Akhil Goel}
-\address{7700 Falstaff Rd, McLean, VA 22102}
+%\address{7700 Falstaff Rd, McLean, VA 22102}
+\address{https://github.com/agaction}
 \address{(571) 353-9527 \\ akhil.goel@gatech.edu} % Your phone number and email
 
-%%% Spring 2020 - Update on 9/16/20 for compatibility %%%
+%%% Fall 2020 %%%
 
 \begin{document}
 
@@ -36,7 +31,7 @@
 \begin{rSection}{Education}
 
 {\bf Georgia Institute of Technology, Atlanta, GA} \hfill {\em Aug 2018 - May 2022 (Expected)}
-\\ Bachelors of Science in Mathematics \& Computer Science \hfill  GPA: 3.86/4.0 \medskip
+\\ Bachelors of Science in Mathematics \& Computer Science \hfill  GPA: 3.84/4.0 \medskip
 \\ {\bf Thomas Jefferson HS for Science \& Technology} \hfill {\em July 2014 - June 2018}
 \end{rSection}
 
@@ -44,11 +39,17 @@
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{MIT Lincoln Laboratory}{June 2019 - Current}{Summer Research Intern \& Student Technical Researcher}{Lexington, MA}
-\item Used Monte-Carlo simulations to develop a  dynamic time-gating algorithm for a biomedical imaging technique called Time-Domain Diffuse Correlation Spectroscopy. 
-\item Upcoming poster presentation at SPIE Photonics West, San Francisco, February 2020.
-\item Implemented convolutional neural network architectures for neclei segmentation and quantification of neurodegenerative disease biomarkers.
-\item$1^{\text{st}}$ Place Team and Best Poster in Intern Innovative Idea Challenge for proposal on automatic American Sign Language translation. Receiving funding for continued project development, pursuing patent.
+\begin{rSubsection}{Varian Medical Systems}{May 2020 - August 2020}{Softare Engineering Intern}{Atlanta, GA}
+\item Built automized data preprocessing pipeline for developing local deep learning segmentation models,
+\item Developed deep volumetric models for organ segmentation within Varian's oncology PACS: Velocity.
+\item Presented project \& pitched call-to-action to panel of Varian executives, received a top score.
+\end{rSubsection}
+
+\begin{rSubsection}{MIT Lincoln Laboratory}{June 2019 - August 2020}{Summer Research Intern \& Student Technical Researcher}{Lexington, MA}
+\item Used Monte-Carlo simulations to develop a time-gating algorithm for a novel imaging technique.
+\item Poster presentation at SPIE Photonics West, San Francisco, February 2020. "Towards Automatic Time-Gating for Time-Domain Diffuse Correlation Spectroscopy." Paper available at bit.ly/AGpaper1.
+\item Implemented convolutional neural network architectures for nuclei segmentation and quantification of neurodegenerative disease biomarkers.
+\item$1^{\text{st}}$ Place Team and Best Poster in Intern Innovative Idea Challenge for proposal on automatic American Sign Language translation. Received funding for continued project development.
 \end{rSubsection}
 
 \begin{rSubsection}{GoVivace Inc.}{July 2018 - Aug 2018}{Research Intern}{McLean, VA}
@@ -68,11 +69,14 @@
 \end{rSection}
 
 % Projects And Seminars
+\newpage
 
 \begin{rSection}{Projects}
-{\bf American Sign Language Translation at MIT Lincoln Laboratory} \hfill {\em June 2019 - Present} \smallskip
+{\bf 3D Texture Generation at Georgia Tech Hays Lab} \hfill {\em August 2020 - Current} \smallskip
+\\Research on using Generative Adversarial Nets and Neural Rendering to produce textured 3D images. \vspace{3mm} \\
+{\bf American Sign Language Translation at MIT Lincoln Laboratory} \hfill {\em June 2019 - January 2020} \smallskip
 \\Developed project proposal for automatic American Sign Language translation through deep learning with a team of six other interns. Continued research development is funded by MIT Lincoln Laboratory  \vspace{3mm} \\
-{\bf Autonomous Robot Navigation at Georgia Tech IVALab} \hfill {\em Jan 2019 - Present} \smallskip
+{\bf Autonomous Robot Navigation at Georgia Tech IVALab} \hfill {\em Jan 2019 - May 2020} \smallskip
 \\Applying reinforcement learning algorithms to improve traditional local planning methods in robotics. \vspace{3mm} \\
 {\bf Coin Detection with OpenCV} \hfill {\em Nov 2017 - Feb 2018} \smallskip
 \\Self-wrote fundamental computer vision algorithms such as
@@ -86,17 +90,17 @@ Gaussian blur, Canny Edge Detection, and Hough transform. Utilized OpenCV Librar
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java, Python, C++, Matlab, Bash, Perl \\[2pt]
-Software \& Tools & Git, PyTorch, TensorFlow, OpenCV, LaTeX, Mathematica, ROS \\[2pt]
-Industry Knowledge & Object-Oriented Programming, Data Structures, Algorithms, AI, \\
-& Computer Vision, Machine Learning, Software Design, UML
+Programming Languages & Python, C/C++, Java, Bash, Matlab \\[2pt]
+Software \& Tools & Git, Numpy, PyTorch, TensorFlow, LaTeX, Mathematica \\[2pt]
+Concepts \& Coursework & Data Structures, Algorithms, AI,
+Computer Vision, Machine Learning, \\& Deep Learning, Object-Oriented Programming, Prob/Stat Theory, \\& Applied Combinatorics, Vector Calculus, Advanced Linear Algebra
 \end{tabular}
 
 \end{rSection}
 
 % Leadership & Extra Curricular
 \begin{rSection}{Leadership \& Extracurricular} \itemsep -3pt \vspace{-3mm}
-\item {\bf Treasurer for ``The Agency,''} the AI/ML club at Georgia Tech. Worked on a project on using reinforcement learning to teach a robot to walk in a simulated environment.
+\item {\bf Treasurer for ``The Agency,''} the AI/ML club at Georgia Tech. Lead weekly beginner workshop series on theory and application of neural networks, preparing lectures, planning events.
 \item {\bf Teaching free chess lessons} to roughly 20 elementary school kids at local library in summer 2017.
 \item {\bf Camp Invention Leadership Intern} in summer 2016, learned leadership skills and worked with kids to promote effective teamwork.
 \item {\bf Volunteered at my Elementary School Chess Club} in 2013-2014. Acted as the assistant of the instructor and helped manage more than a hundred students, chess sets, and logistics.
