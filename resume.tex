@@ -14,13 +14,14 @@
 
 \documentclass{template} % Use the custom resume.cls style
 
-\usepackage[left=0.7in,top=0.5in,right=0.7in,bottom=0.5in]{geometry} % Document margins
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\usepackage{fontawesome} % Document margins
+\usepackage{hyperref}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Akhil Goel}
 %\address{7700 Falstaff Rd, McLean, VA 22102}
-\address{https://agaction.github.io \\ (571)\:353\:-\:9527}
-\address{akhil.goel.2000@gmail.com \\ akhil.goel@gatech.edu} % Your phone number and email
+\address{\href{mailto:akhil.goel.2000@gmail.com}{akhil.goel.2000@gmail.com } \\ \space \faPhone \space {(571)\:353-9527} \\ \space \faGithub \space \href{https://agaction.github.io}{agaction }}
 
 \begin{document}
 
@@ -28,8 +29,15 @@
 
 \begin{rSection}{Education}
 {\bf Georgia Institute of Technology, Atlanta, GA} \hfill {\em Aug 2018 - July 2023}
-\\ Masters of Science in Computer Science \hfill  GPA: 3.5/4.0
-\\ Bachelors of Science in Mathematics \& Computer Science \hfill  GPA: 3.67/4.0
+\\ {\em M.S. in Computer Science - Machine Learning} \hfill  GPA: 3.5/4.0
+\vspace{0.1cm}
+\\ \underline{Notable Coursework:} Machine Learning (ML), Natural Language Processing (NLP), Interactive Robot Learning (Reinforcement Learning), Convex Optimization, High Performance Computing (HPC), Quantum Computing, Dynamic Algebraic Algorithms, Cryptography \& Blockchain, ML for Trading/Computational Biology 
+
+{\em B.S. in Mathematics \& Computer Science} \hfill  GPA: 3.67/4.0
+\vspace{0.1cm}
+\\ \underline{Notable Coursework:} Data Structures, Advanced Algorithms, Object-oriented Programming (OOP), Deep Learning, Computer Vision, Robotics, Artificial Intelligence (AI), Computer Architecture, Systems, Databases, Computer Networking, Information Security, Automata and Complexity, Linear Algebra, Vector Calculus, Probability, Statistics, Stochastic Processes, Algebra, Real/Complex/Combinatorial/Numerical Analysis
+\vspace{0.20cm}
+\\ {\bf Thomas Jefferson High School for Science and Technology (TJHSST)} \hfill {\em Aug 2014 - May 2018}
 \end{rSection}
 
 % WORK EXPERIENCE
@@ -38,12 +46,14 @@
 
 \begin{rSubsection}{Google LLC}{May 2022 - August 2022}{Softare Engineering Intern}{Mountain View, CA}
 \item Designed and implemented subscription free-trial abuse detection algorithms on Google Play Store.
-\item Analyzed impact of abuse checks and created user experiments to enable ramp-up of abuse verdicts.
+\item Leveraged asynchronous gRPC protocols to enable high-throughput abuse checks with little to no latency cost
+\item Analyzed revenue impact of abuse checks and created user experiments to enable ramp-up of abuse verdicts.
 \end{rSubsection}
 
-\begin{rSubsection}{Facebook AI Applied Research}{May 2021 - August 2021}{Softare Engineering Intern}{Menlo Park, CA}
-\item Designed and developed a library for influential instance model interpretability algorithms for Captum.
-\item Created tutorials and applied algorithms to Facebook AI Multimodal models for platform integrity. 
+\begin{rSubsection}{Meta (Facebook AI Applied Research)}{May 2021 - August 2021}{Softare Engineering Intern}{Menlo Park, CA}
+\item Developed influential instance model interpretability algorithms for \href{https://captum.ai/}{Captum,} an open-source PyTorch library.
+\item Implemented novel algorithms from recent \href{https://arxiv.org/pdf/2002.08484.pdf}{research publications} and created \href{https://captum.ai/tutorials/TracInCP_Tutorial}{tutorials} for influence methods.
+\item Designed rigorous testing frameworks and applied algorithms to large Facebook AI Multimodal models.
 \end{rSubsection}
 
 \begin{rSubsection}{Varian Medical Systems}{May 2020 - August 2020}{Softare Engineering Intern}{Atlanta, GA}
@@ -52,8 +62,8 @@
 \end{rSubsection}
 
 \begin{rSubsection}{MIT Lincoln Laboratory}{June 2019 - August 2020}{Summer Research Intern \& Student Technical Researcher}{Lexington, MA}
-\item Used Monte-Carlo simulations to develop a time-gating algorithm for a novel imaging technique.
-\item Conference paper at SPIE Photonics West, San Francisco, February 2020. Paper available at bit.ly/AGpaper1.
+\item Used Monte-Carlo simulations to develop a time-gating algorithm for a novel brain imaging technique.
+\item Co-Authored \href{https://bit.ly/AGpaper1}{conference publication} at SPIE Photonics West, San Francisco, February 2020.
 \item$1^{\text{st}}$ Place Team prize for proposal on automatic American Sign Language translation. Received funding.
 \end{rSubsection}
 
@@ -62,21 +72,20 @@
 
 %Projects
 
-\begin{rSection}{Research}
-{\bf Visually Grounded PointGoal Navigation at CVMLP Lab} \hfill {\em August 2021 - May 2022} \smallskip
-\\Research on visually-grounded navigation in dynamic environments. Advised by Prof. Dhruv Batra. \vspace{3mm} \\
-{\bf Autonomous Robot Navigation at Georgia Tech IVALab} \hfill {\em Jan 2019 - May 2020} \smallskip
-\\Applying reinforcement learning algorithms to improve traditional local planning methods in robotics.
-\end{rSection}
+% \begin{rSection}{Research}
+% {\bf Visually Grounded PointGoal Navigation at CVMLP Lab} \hfill {\em August 2021 - May 2022} \smallskip
+% \\Research on visually-grounded navigation in dynamic environments. Advised by Prof. Dhruv Batra. \vspace{3mm} \\
+% {\bf Autonomous Robot Navigation at Georgia Tech IVALab} \hfill {\em Jan 2019 - May 2020} \smallskip
+% \\Applying reinforcement learning algorithms to improve traditional local planning methods in robotics.
+% \end{rSection}
 
 %TECHNICAL STRENGTHS
 
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & Python, C/C++, Java, Bash \\[2pt]
-Software \& Tools & PyTorch, Keras, Numpy, Git, MPI, CUDA, Solidity, Qiskit, AWS \\[2pt]
-Concepts \& Coursework & Probability, Statistics, Combinatorics, Numerical Analysis, AI, NLP, \\&  Stochastic Processes, Data Structures, Algorithms, Computer Vision, \\& Deep Learning, Vector Calculus, Linear Algebra, Comp.\:Architecture, \\& Convex Optimization, HPC, Quantum Computing, Blockchain \& Crypto
+Programming Languages & Python, C/C++, Java, CUDA, Bash \\[2pt]
+Technologies \& Tools & PyTorch, Keras, Numpy, Pandas, Git, Docker, AWS, MPI, Qiskit, Solidity \\[2pt]
 \end{tabular}
 
 \end{rSection}
@@ -85,7 +94,7 @@ Concepts \& Coursework & Probability, Statistics, Combinatorics, Numerical Analy
 
 \begin{rSection}{Leadership \& Extracurricular} \itemsep -3pt \vspace{-3mm}
 \item {\bf External Operations - The Agency:} President for AI/ML research club at Georgia Tech.
-\item {\bf GTA - Computer Vision:} Held weekly office hours and grading for computer vision course. 
+\item {\bf GTA - Computer Vision:} Led keypoint matching project (SIFT), taught students in office hours. 
 \end{rSection}
 
 % Awards & Achievements
