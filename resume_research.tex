@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+
+\documentclass{template} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\usepackage{fontawesome} % Document margins
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Akhil Goel}
+%\address{7700 Falstaff Rd, McLean, VA 22102}
+\address{\href{mailto:akhil.goel.2000@gmail.com}{akhil.goel.2000@gmail.com } \\ \space \faPhone \space {(571)\:353-9527} \\ \space \faGithub \space \href{https://agaction.github.io}{agaction }}
+
+\begin{document}
+
+% EDUCATION SECTION
+
+\begin{rSection}{Education}
+{\bf Georgia Institute of Technology, Atlanta, GA} \hfill {\em Aug 2018 - July 2023}
+\\ {\em M.S. in Computer Science - Machine Learning} \hfill  GPA: 3.5/4.0
+\vspace{0.1cm}
+\\ \underline{Notable Coursework:} Machine Learning (ML), Natural Language Processing (NLP), Interactive Robot Learning (Reinforcement Learning), Convex Optimization, High Performance Parallel Computing (HPC)
+
+{\em B.S. in Mathematics \& Computer Science} \hfill  GPA: 3.67/4.0
+\vspace{0.1cm}
+\\ \underline{Notable Coursework:} Data Structures, Algorithms, OOP, Deep Learning, Computer Vision, Perception, AI, Computer Architecture, Systems, Databases, Linear Algebra, Vector Calculus, Probability, Statistics
+\vspace{0.20cm}
+\\ {\bf Thomas Jefferson High School for Science and Technology (TJHSST)} \hfill {\em Aug 2014 - May 2018}
+\end{rSection}
+
+% WORK EXPERIENCE
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Google}{May 2022 - August 2022}{Software Engineering Intern}{Mountain View, CA}
+\item Designed and implemented low-latency subscription free-trial fraud detection system for Google Play Store.
+\item Analyzed revenue impact of abuse checks and created user experiments to enable ramp-up of abuse verdicts.
+\end{rSubsection}
+
+\begin{rSubsection}{Meta (Facebook AI Applied Research)}{May 2021 - August 2021}{Software Engineering Intern}{Menlo Park, CA}
+\item Developed influential instance model interpretability algorithms for \href{https://captum.ai/}{Captum,} an open-source PyTorch library.
+\item Implemented novel algorithms from recent \href{https://arxiv.org/pdf/2002.08484.pdf}{research publications} and created \href{https://captum.ai/tutorials/TracInCP_Tutorial}{tutorials} for influence methods.
+\item Designed rigorous testing frameworks and applied algorithms to large Facebook AI Multimodal models.
+\end{rSubsection}
+
+\begin{rSubsection}{Varian Medical Systems}{May 2020 - August 2020}{Software Engineering Intern}{Atlanta, GA}
+\item Built automized data preprocessing pipeline and deep volumetric segmentation models for tumor identification. 
+\end{rSubsection}
+
+\begin{rSubsection}{MIT Lincoln Laboratory}{June 2019 - May 2020}{Summer Research Intern \& Student Technical Researcher}{Lexington, MA}
+\item Developed algorithm for novel brain imaging method using Monte Carlo techniques. Co-Authored \href{https://bit.ly/AGpaper1}{publication.}
+\item$1^{\text{st}}$ Place Team prize for proposal on automatic American Sign Language translation. Received funding.
+\end{rSubsection}
+
+\end{rSection}
+\vspace{-2mm}
+
+%Projects
+
+\begin{rSection}{Research}
+{\bf Visually Grounded PointGoal Navigation at CVMLP Lab} \hfill {\em August 2021 - May 2022} \smallskip
+\\Developing visual saliency methods for deep RL agent point-goal navigation in dynamic home environments. \vspace{3mm} \\
+{\bf Autonomous Robot Navigation at Georgia Tech IVALab} \hfill {\em Jan 2019 - May 2020} \smallskip
+\\Integrating reinforcement learning algorithms with traditional local planning and controls for robotics.
+\end{rSection}
+
+%TECHNICAL STRENGTHS
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & \hspace{-0.75cm} Python, C/C++, Java, CUDA, Bash, SQL, Solidity \\[2pt]
+Technologies \& Tools & \hspace{-0.75cm} PyTorch, Keras, Numpy, Pandas, Git, Docker, AWS, MPI, Qiskit, HTML/CSS \\[2pt]
+\end{tabular}
+
+\end{rSection}
+
+% Leadership & Extra Curricular
+
+\begin{rSection}{Leadership \& Extracurricular} \itemsep -3pt \vspace{-3mm}
+\item {\bf External Operations - The Agency:} President for AI/ML research club at Georgia Tech.
+\item {\bf GTA - Computer Vision:} Led keypoint matching project (SIFT), taught students in office hours. 
+\end{rSection}
+
+\end{document}
+
