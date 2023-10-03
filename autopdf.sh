@@ -13,6 +13,7 @@ elif [ $LOCAL = $BASE ]; then
     echo "Need to pull"
     git pull
     pdflatex --jobname=Akhil_Goel_Resume resume.tex
+    pdflatex --jobname=Resume_Akhil_Goel resume_research.tex
     pdflatex --jobname=Akhil_Goel_CV cv.tex
     git add .
     git commit -m "Updated PDFs"
